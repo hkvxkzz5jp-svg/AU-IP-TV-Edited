@@ -1,0 +1,64 @@
+{
+  "id": "com.joshargh.auiptv",
+  "version": "2.8.1",
+  "name": "AU IPTV (Melbourne) - Sports First",
+  "description": "AU IPTV showing sports channels at the top for Omni",
+  "types": ["tv"],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "au_tv_Melbourne",
+      "name": "AU IPTV - Sports Channels",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "AU Sports",
+            "Extra: AU | Kayo Sports",
+            "Extra: AU | Stan Sports Events",
+            "Traditional Channels",
+            "Other Channels",
+            "All TV Channels",
+            "Regional Channels",
+            "Radio",
+            "Adelaide TV",
+            "Brisbane TV",
+            "Canberra TV",
+            "Darwin TV",
+            "Hobart TV",
+            "Perth TV",
+            "Sydney TV",
+            "NZ TV",
+            "NZ Radio",
+            "UK TV",
+            "UK Sports",
+            "US TV",
+            "US Sports",
+            "CA TV",
+            "CA Sports",
+            "NZ Sports",
+            "EU Sports",
+            "World Sports",
+            "EPL",
+            "Extra: CA | DAZN",
+            "Extra: INT | Netflix Events",
+            "Extra: INT | DIRTVision",
+            "Extra: UK | EPL",
+            "Extra: UK | DAZN",
+            "Extra: UK | TNT Sports",
+            "Extra: UK | Sky Sports",
+            "Extra: NZ | Sky Sport",
+            "Extra: INT | F1 TV",
+            "Extra: UK | SPFL",
+            "Extra: INT | Rugby Events",
+            "Extra: PPV | Events"
+          ],
+          "isRequired": true
+        }
+      ]
+    }
+  ],
+  "resources": ["catalog", "meta", "stream"],
+  "icon": "https://kangaroostreams.hayd.uk/AUIPTVLOGO.svg",
+  "logo": "https://kangaroostreams.hayd.uk/AUIPTVLOGO.svg"
+}
